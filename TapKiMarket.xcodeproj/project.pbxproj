@@ -102,13 +102,10 @@
 		4328136F258E2C9F007CA5FD /* TapKiMarket */ = {
 			isa = PBXGroup;
 			children = (
-				43281370258E2C9F007CA5FD /* AppDelegate.swift */,
-				43281372258E2C9F007CA5FD /* SceneDelegate.swift */,
-				43281374258E2C9F007CA5FD /* ViewController.swift */,
-				43281376258E2C9F007CA5FD /* Main.storyboard */,
-				43281379258E2CA0007CA5FD /* Assets.xcassets */,
-				4328137B258E2CA0007CA5FD /* LaunchScreen.storyboard */,
-				4328137E258E2CA0007CA5FD /* Info.plist */,
+				43F0AAD82591375800860DA5 /* App */,
+				43F0AAD72591374D00860DA5 /* Core */,
+				43F0AAD62591373600860DA5 /* Resources */,
+				43F0AAD52591371A00860DA5 /* Environments */,
 			);
 			path = TapKiMarket;
 			sourceTree = "<group>";
@@ -129,6 +126,73 @@
 				43281394258E2CA0007CA5FD /* Info.plist */,
 			);
 			path = TapKiMarketUITests;
+			sourceTree = "<group>";
+		};
+		43F0AAD52591371A00860DA5 /* Environments */ = {
+			isa = PBXGroup;
+			children = (
+				4328137E258E2CA0007CA5FD /* Info.plist */,
+			);
+			path = Environments;
+			sourceTree = "<group>";
+		};
+		43F0AAD62591373600860DA5 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				43281379258E2CA0007CA5FD /* Assets.xcassets */,
+				4328137B258E2CA0007CA5FD /* LaunchScreen.storyboard */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		43F0AAD72591374D00860DA5 /* Core */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Core;
+			sourceTree = "<group>";
+		};
+		43F0AAD82591375800860DA5 /* App */ = {
+			isa = PBXGroup;
+			children = (
+				43F0AADC259137E800860DA5 /* BusinessLogic */,
+				43F0AADB259137D900860DA5 /* Entity */,
+				43F0AADA259137C700860DA5 /* Assembly */,
+				43F0AAD9259137AC00860DA5 /* Flows */,
+				43281370258E2C9F007CA5FD /* AppDelegate.swift */,
+				43281372258E2C9F007CA5FD /* SceneDelegate.swift */,
+			);
+			path = App;
+			sourceTree = "<group>";
+		};
+		43F0AAD9259137AC00860DA5 /* Flows */ = {
+			isa = PBXGroup;
+			children = (
+				43281374258E2C9F007CA5FD /* ViewController.swift */,
+				43281376258E2C9F007CA5FD /* Main.storyboard */,
+			);
+			path = Flows;
+			sourceTree = "<group>";
+		};
+		43F0AADA259137C700860DA5 /* Assembly */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Assembly;
+			sourceTree = "<group>";
+		};
+		43F0AADB259137D900860DA5 /* Entity */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Entity;
+			sourceTree = "<group>";
+		};
+		43F0AADC259137E800860DA5 /* BusinessLogic */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = BusinessLogic;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
