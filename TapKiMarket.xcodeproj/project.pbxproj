@@ -15,7 +15,7 @@
 		4328137D258E2CA0007CA5FD /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4328137B258E2CA0007CA5FD /* LaunchScreen.storyboard */; };
 		43281388258E2CA0007CA5FD /* TapKiMarketTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 43281387258E2CA0007CA5FD /* TapKiMarketTests.swift */; };
 		43281393258E2CA0007CA5FD /* TapKiMarketUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 43281392258E2CA0007CA5FD /* TapKiMarketUITests.swift */; };
-		432813A4258E2CF9007CA5FD /* .gitignore in Resources */ = {isa = PBXBuildFile; fileRef = 432813A3258E2CF9007CA5FD /* .gitignore */; };
+		4395F92C2591498B00836F03 /* .gitignore in Resources */ = {isa = PBXBuildFile; fileRef = 4395F92B2591498B00836F03 /* .gitignore */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -50,7 +50,7 @@
 		4328138E258E2CA0007CA5FD /* TapKiMarketUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TapKiMarketUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		43281392258E2CA0007CA5FD /* TapKiMarketUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TapKiMarketUITests.swift; sourceTree = "<group>"; };
 		43281394258E2CA0007CA5FD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		432813A3258E2CF9007CA5FD /* .gitignore */ = {isa = PBXFileReference; lastKnownFileType = text; path = .gitignore; sourceTree = "<group>"; };
+		4395F92B2591498B00836F03 /* .gitignore */ = {isa = PBXFileReference; lastKnownFileType = text; path = .gitignore; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -81,7 +81,7 @@
 		43281364258E2C9F007CA5FD = {
 			isa = PBXGroup;
 			children = (
-				432813A3258E2CF9007CA5FD /* .gitignore */,
+				4395F92B2591498B00836F03 /* .gitignore */,
 				4328136F258E2C9F007CA5FD /* TapKiMarket */,
 				43281386258E2CA0007CA5FD /* TapKiMarketTests */,
 				43281391258E2CA0007CA5FD /* TapKiMarketUITests */,
@@ -298,7 +298,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				432813A4258E2CF9007CA5FD /* .gitignore in Resources */,
+				4395F92C2591498B00836F03 /* .gitignore in Resources */,
 				4328137D258E2CA0007CA5FD /* LaunchScreen.storyboard in Resources */,
 				4328137A258E2CA0007CA5FD /* Assets.xcassets in Resources */,
 				43281378258E2C9F007CA5FD /* Main.storyboard in Resources */,
